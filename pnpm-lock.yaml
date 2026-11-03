@@ -37,7 +37,7 @@ packages:
     resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
 
   '@everybenefits/shared@https://codeload.github.com/everybenefits/pulse-shared/tar.gz/4aaf81b088f6c44ad530a2f7522cfc1c47303066':
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/everybenefits/pulse-shared/tar.gz/4aaf81b088f6c44ad530a2f7522cfc1c47303066}
+    resolution: {gitHosted: true, integrity: sha512-qnB8dirUSJiQD9lhOx1Z68mBjPOHpisEaO7Jfu/TTdI4zbHMnStvmm8tQGNFiOQKkHT6CXZISQMMOKVoXn0Wxw==, tarball: https://codeload.github.com/everybenefits/pulse-shared/tar.gz/4aaf81b088f6c44ad530a2f7522cfc1c47303066}
     version: 0.1.0
 
   '@formatjs/fast-memoize@3.1.7':
@@ -616,8 +616,8 @@ packages:
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || >=19.0.0-rc <19.0.0 || ^19.0.0
 
-  zod@4.6.5:
-    resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
+  zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
 
 snapshots:
 
@@ -628,7 +628,7 @@ snapshots:
 
   '@everybenefits/shared@https://codeload.github.com/everybenefits/pulse-shared/tar.gz/4aaf81b088f6c44ad530a2f7522cfc1c47303066':
     dependencies:
-      zod: 4.6.5
+      zod: 4.6.7
 
   '@formatjs/fast-memoize@3.1.7': {}
 
@@ -1067,4 +1067,4 @@ snapshots:
       intl-messageformat: 11.2.15
       react: 19.2.8
 
-  zod@4.6.5: {}
+  zod@4.6.7: {}
